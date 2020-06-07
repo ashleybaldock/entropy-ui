@@ -285,6 +285,63 @@
   border-right: 1px solid #222;
 }
 
+.Handle_handle__W7A0v {
+  stroke-width: 1px;
+}
+
+.Handle_dark__G9JtN {
+  stroke: #000;
+  transition-duration: 0.3s;
+  transition-property: stroke;
+  transition-timing-function: ease;
+}
+
+.Handle_light__1u1sA {
+  stroke: #FFF;
+  transition-duration: 0.3s;
+  transition-property: stroke;
+  transition-timing-function: ease;
+}
+
+.HueControl_overlay__2SJ_e {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.SaturationControl_overlay__3fd3d {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.ValueControl_overlay__3KLx8 {
+  cursor: pointer;
+  opacity: 0;
+}
+
+.ColourSelect_container__KU2GV {
+  margin: 10px;
+  flex: 1 1 auto;
+}
+
+.ColourSelect_colourSelect__1KqCw {
+}
+
+.ColourSelect_currentColour__1nLju {
+  cursor: pointer;
+}
+
+.ColourSelect_indicatorText__2vOCt {
+  font: 240% monospace;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.ColourSelect_instructionText__1iW__ {
+  font: 5% sans-serif;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
 .ControlRow_controlRow__v5Zw1 {
   justify-content: center;
   align-items: center;
@@ -916,31 +973,5 @@ a:active {
 .ToggleText_toggled__3T7he {
 }
 
-.ColourSelect_container__KU2GV {
-  margin: 10px;
-  flex: 1 1 auto;
-}
 
-.ColourSelect_colourSelect__1KqCw {
-}
-
-.ColourSelect_hueHandle__2vzXC, .ColourSelect_satHandle__1d74C, .ColourSelect_valHandle__lQFFb {
-  stroke-width: 1px;
-  stroke: black;
-}
-
-.ColourSelect_valHandle__lQFFb {
-  stroke: white;
-}
-
-.ColourSelect_overlay__3t2Q1 {
-  cursor: pointer;
-  opacity: 0;
-}
-
-.ColourSelect_currentColour__1nLju {
-  cursor: pointer;
-}
-
-
-/*# sourceMappingURL=main.f0553632.chunk.css.map*/
+/*# sourceMappingURL=main.d7d5cb33.chunk.css.map*/
