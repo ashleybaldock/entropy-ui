@@ -324,6 +324,8 @@
 }
 
 .ColourSelect_colourSelect__1KqCw {
+  width: 100%;
+  height: 100%;
 }
 
 .ColourSelect_currentColour__1nLju {
@@ -337,7 +339,7 @@
 }
 
 .ColourSelect_instructionText__1iW__ {
-  font: 5% sans-serif;
+  font: 100% sans-serif;
   dominant-baseline: middle;
   text-anchor: middle;
 }
@@ -974,4 +976,4 @@ a:active {
 }
 
 
-/*# sourceMappingURL=main.d7d5cb33.chunk.css.map*/
+/*# sourceMappingURL=main.f1099b97.chunk.css.map*/
