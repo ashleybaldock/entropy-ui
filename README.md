@@ -1,3 +1,3 @@
 ## Nascent React UI Component Library
 
-See: https://ashleybaldock.github.io/entropy-ui/storybook for demo
+See: https://entropy-ui.netlify.app/ for demo
