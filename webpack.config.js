@@ -11,7 +11,7 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.css$/,
+        test: /\.module\.css$/,
         use: [
           'style-loader',
           {
@@ -19,8 +19,7 @@ module.exports = {
             options: {
               importLoaders: 1,
               modules: true,
-              sourceMap: true,
-              minimize: true
+              sourceMap: true
             },
           },
         ],
@@ -59,5 +58,8 @@ module.exports = {
   },
   devServer: {
     contentBase: './lib',
+  },
+  watchOptions: {
+    ignored: ['lib/*.js', 'node_modules/**']
   },
 };
