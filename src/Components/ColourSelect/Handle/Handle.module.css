@@ -1,0 +1,17 @@
+.handle {
+  stroke-width: 1px;
+}
+
+.dark {
+  stroke: #000;
+  transition-duration: 0.3s;
+  transition-property: stroke;
+  transition-timing-function: ease;
+}
+
+.light {
+  stroke: #FFF;
+  transition-duration: 0.3s;
+  transition-property: stroke;
+  transition-timing-function: ease;
+}

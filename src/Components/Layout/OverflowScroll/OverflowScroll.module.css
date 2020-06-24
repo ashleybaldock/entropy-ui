@@ -1,0 +1,12 @@
+.overflowScroll {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.y {
+  overflow-y: scroll;
+}
+
+.x {
+  overflow-x: scroll;
+}

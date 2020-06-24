@@ -2,14 +2,19 @@
   "name": "entropy-ui",
   "version": "0.2.0",
   "description": "A chaotic React component library",
-  "main": "index.js",
-  "scripts": {},
+  "main": "./lib/entropy-ui.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashleybaldock/entropy-ui.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ashley Baldock (ashley@baldock.me)",
   "license": "BSD-4-Clause",
   "bugs": {
     "url": "https://github.com/ashleybaldock/entropy-ui/issues"
@@ -21,9 +26,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
     "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
