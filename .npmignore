@@ -4,3 +4,4 @@ demo
 .babelrc
 .prettierrc
 webpack.config.js
+jsconfig.json
