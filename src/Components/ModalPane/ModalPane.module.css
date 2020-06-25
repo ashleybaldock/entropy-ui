@@ -1,0 +1,16 @@
+.pane {
+  background-color: #101010;
+  align-self: center;
+  align-items: center;
+  min-width: 160px;
+  max-width: 60vw;
+  border-radius: 6px;
+}
+
+.title {
+  align-self: stretch;
+  text-align: center;
+  background: #2c2c2c;
+  padding: 0.9em;
+}
+

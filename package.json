@@ -22,7 +22,16 @@
   "bugs": {
     "url": "https://github.com/ashleybaldock/entropy-ui/issues"
   },
-  "homepage": "https://github.com/ashleybaldock/entropy-ui#readme",
+  "homepage": "https://entropy-ui.morepossibility.com",
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": 1
+    }
+  },
   "peerDependencies": {
     "react": "^16.x",
     "react-dom": "^16.x"
