@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook --static-dir public --output-dir ./storybook --config-dir .storybook"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "repository": {
     "type": "git",
