@@ -1,11 +1,12 @@
 import React from 'react';
 
 export const ClassInjector = ({ children, className, ...props }) => {
-  const onlyChild = React.Children.only(children);
-
-  return React.cloneElement(onlyChild, {
-    className: `${
-      onlyChild.props.className ? onlyChild.props.className : ''
-    } ${className}`,
-  });
+  return React.Children.map(children, (child) =>
+    React.cloneElement(child, {
+      className: `${
+        child.props.className ? child.props.className : ''
+      } ${className}`,
+    })
+  );
 };
+
