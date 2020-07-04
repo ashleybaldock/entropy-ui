@@ -1,35 +1,42 @@
 import React from 'react';
 
-const defaultWrapper = (<div></div>);
+const defaultWrapper = <div></div>;
 
 export const FlexBase = ({
   children,
   className = '',
   flexDirection = 'row',
+  reverse = false,
   alignItems = undefined,
+  alignContent = 'stretch',
   justifyContent = undefined,
   flex = undefined,
-  flexGrow = 0,
   flexWrap = 'nowrap',
+  alignSelf = 'auto',
   wrapperElement = defaultWrapper,
   style = {},
   ...props
 }) => {
-  const onlyChild = React.Children.only(wrapperElement);
-  return (
-    React.cloneElement(onlyChild, {
-      ...props,
-      children,
-      className,
-      style: {
-        display: 'flex',
-        flexDirection,
-        flex,
-        alignItems,
-        justifyContent,
-        flexWrap,
-        ...style,
-      }
-    })
-  );
+  const onlyWrapperElement = React.Children.only(wrapperElement);
+  return React.cloneElement(onlyWrapperElement, {
+    ...onlyWrapperElement.props,
+    ...props,
+    children,
+    className: `${className} ${
+      onlyWrapperElement.props.className
+        ? onlyWrapperElement.props.className
+        : ''
+    }`,
+    style: {
+      display: 'flex',
+      flexDirection: reverse ? `${flexDirection}-reverse` : flexDirection,
+      alignItems,
+      alignContent,
+      justifyContent,
+      flex,
+      flexWrap,
+      alignSelf,
+      ...style,
+    },
+  });
 };
