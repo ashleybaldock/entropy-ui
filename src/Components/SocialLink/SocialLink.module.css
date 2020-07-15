@@ -1,0 +1,32 @@
+.socialLink {
+  cursor: pointer;
+}
+
+.frame {
+  padding: 0.7em;
+  border-radius: 9999px;
+  background-color: #aaa;
+  color: black;
+  fill: black;
+  width: 1.5em;
+  height: 1.5em;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+  transition-timing-function: ease;
+}
+
+.socialLink:hover .frame {
+  background-color: #fff;
+}
+
+.socialLinkText {
+  color: #aaa;
+  padding-left: 1em;
+  transition-duration: 0.3s;
+  transition-property: color;
+  transition-timing-function: ease;
+}
+
+.socialLink:hover .socialLinkText {
+  color: #fff;
+}

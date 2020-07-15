@@ -21,6 +21,7 @@ export * from './PlayIcon';
 export * from './PlusIcon';
 export * from './PowerIcon';
 export * from './SearchIcon';
+export * from './Social';
 export * from './StopIcon';
 export * from './SunIcon';
 export * from './TickIcon';

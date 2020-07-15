@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './FlexBase.module.css';
 
 const defaultWrapper = <div></div>;
 
@@ -10,7 +11,7 @@ export const FlexBase = ({
   alignItems = undefined,
   alignContent = 'stretch',
   justifyContent = undefined,
-  flex = undefined,
+  flex = '0 1 auto',
   flexWrap = 'nowrap',
   alignSelf = 'auto',
   wrapperElement = defaultWrapper,
@@ -22,7 +23,7 @@ export const FlexBase = ({
     ...onlyWrapperElement.props,
     ...props,
     children,
-    className: `${className} ${
+    className: `${styles.flex} ${className} ${
       onlyWrapperElement.props.className
         ? onlyWrapperElement.props.className
         : ''
