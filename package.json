@@ -33,27 +33,27 @@
     }
   },
   "peerDependencies": {
-    "react": "^16.x",
-    "react-dom": "^16.x"
+    "react": "^17.x",
+    "react-dom": "^17.x"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-knobs": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/react": "^5.3.19",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.6.0",
-    "eslint": "^7.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-knobs": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/addons": "^6.1.21",
+    "@storybook/react": "^6.1.21",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "eslint": "^7.21.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4",
+    "webpack-cli": "^3"
   }
 }
