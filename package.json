@@ -33,25 +33,26 @@
     }
   },
   "peerDependencies": {
-    "react": "^17.x",
-    "react-dom": "^17.x"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.12.13",
-    "@storybook/addon-actions": "^6.1.21",
-    "@storybook/addon-knobs": "^6.1.21",
-    "@storybook/addon-links": "^6.1.21",
-    "@storybook/addons": "^6.1.21",
-    "@storybook/react": "^6.1.21",
+    "@storybook/addon-actions": "^6.2.x",
+    "@storybook/addon-knobs": "^6.2.x",
+    "@storybook/addon-links": "^6.2.x",
+    "@storybook/addons": "^6.2.x",
+    "@storybook/react": "^6.2.x",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.1.1",
-    "eslint": "^7.21.0",
+    "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
     "style-loader": "^2.0.0",
     "webpack": "^4",
     "webpack-cli": "^3"
