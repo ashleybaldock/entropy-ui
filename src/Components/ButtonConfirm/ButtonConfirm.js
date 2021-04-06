@@ -24,7 +24,11 @@ export const ButtonConfirm = ({
   return (
     <ModalWrapper
       triggerProps={['onClick']}
-      trigger={<Button onClick={() => {}} className={className}>{children}</Button>}
+      trigger={
+        <Button onClick={() => {}} className={className}>
+          {children}
+        </Button>
+      }
       childPropsToMapHideTo={['hideModal']}
     >
       <Wrapper hideModal={() => {}} onConfirm={onConfirm} />

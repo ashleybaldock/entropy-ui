@@ -1,5 +1,5 @@
-import { useEffect, useRef, useCallback } from 'react';
-import isEqual from 'react-fast-compare';
+import { useRef, useCallback } from 'react';
+// import isEqual from 'react-fast-compare';
 
 export const useCallbackWithCleanup = (rawCallback) => {
   const cleanupRef = useRef(null);
@@ -23,16 +23,16 @@ export const useCallbackWithCleanup = (rawCallback) => {
 /*
  * Memoized ref which only changes if value has really changed
  */
-const useDeepMemo = (value) => {
-  const ref = useRef(null);
+// const useDeepMemo = (value) => {
+//   const ref = useRef(null);
 
-  if (!isEqual(value, ref.current)) {
-    // console.log('updating value');
-    ref.current = value;
-  }
+//   if (!isEqual(value, ref.current)) {
+//     // console.log('updating value');
+//     ref.current = value;
+//   }
 
-  return ref.current;
-};
+//   return ref.current;
+// };
 
-export const useDeepEffect = (callback, dependencies) =>
-  useEffect(callback, useDeepMemo(dependencies));
+// export const useDeepEffect = (callback, dependencies) =>
+//   useEffect(callback, useDeepMemo(dependencies));

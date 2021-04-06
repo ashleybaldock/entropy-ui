@@ -1,5 +1,5 @@
-import React from "react";
-import { FlexBase } from "../FlexBase";
+import React from 'react';
+import { FlexBase } from '../FlexBase';
 
 export const FlexColumn = ({
   children,
@@ -12,7 +12,7 @@ export const FlexColumn = ({
   ...props
 }) => {
   return (
-    <FlexBase flexDirection={"column"} {...props}>
+    <FlexBase flexDirection={'column'} {...props}>
       {children}
     </FlexBase>
   );

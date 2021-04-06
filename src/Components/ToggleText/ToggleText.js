@@ -15,7 +15,9 @@ export const ToggleText = ({
     <FlexRow
       onClick={onToggle}
       alignItems={'center'}
-      className={`${styles.c} ${toggled ? styles.toggled : ''} ${disabled ? styles.disabled : ''} ${className}`}
+      className={`${styles.c} ${toggled ? styles.toggled : ''} ${
+        disabled ? styles.disabled : ''
+      } ${className}`}
     >
       <Toggle
         toggled={toggled}

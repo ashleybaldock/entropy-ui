@@ -9,4 +9,3 @@ export const ClassInjector = ({ children, className, ...props }) => {
     })
   );
 };
-

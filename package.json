@@ -30,7 +30,17 @@
     ],
     "rules": {
       "prettier/prettier": 1
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "src/**/*.stories.js"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
   },
   "peerDependencies": {
     "react": "^17.0.2",
