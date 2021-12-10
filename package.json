@@ -1,6 +1,6 @@
 {
   "name": "entropy-ui",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A chaotic React component library",
   "main": "./lib/entropy-ui.js",
   "scripts": {
@@ -51,10 +51,10 @@
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.12.13",
-    "@storybook/addon-actions": "^6.2.x",
-    "@storybook/addon-knobs": "^6.2.x",
-    "@storybook/addon-links": "^6.2.x",
-    "@storybook/addons": "^6.2.x",
+    "@storybook/addon-actions": "^6.4.x",
+    "@storybook/addon-controls": "^6.4.9",
+    "@storybook/addon-links": "^6.4.x",
+    "@storybook/addons": "^6.4.x",
     "@storybook/react": "^6.4.9",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.1.1",
@@ -63,7 +63,7 @@
     "prettier": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^3.4.4",
     "style-loader": "^2.0.0",
     "webpack": "^4",
     "webpack-cli": "^4.9.1"

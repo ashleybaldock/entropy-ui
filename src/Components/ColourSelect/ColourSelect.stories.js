@@ -1,5 +1,5 @@
 import React from 'react';
-import { withKnobs, text, boolean } from '@storybook/addon-knobs';
+import { withKnobs, text, boolean } from '@storybook/addon-controls';
 import { FlexColumn, FlexRow } from 'Components';
 import {
   RgbPicker,
