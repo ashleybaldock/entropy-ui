@@ -11,7 +11,6 @@ import {
 export default {
   title: 'ColourSelect',
   component: RgbPicker,
-  decorators: [withKnobs],
 };
 
 const Label = ({ children }) => {
@@ -68,23 +67,27 @@ export const Demo = () => {
   );
 };
 
-export const HsvPickerProps = () => {
+export const HsvPickerProps = (args) => {
   const [hsv, setHsv] = React.useState({ h: 0, s: 1, v: 1 });
   return (
     <PickerContainer>
       <HsvPicker
-        active={boolean('Active', true)}
-        modifySaturation={boolean('Saturation', true)}
-        modifyValue={boolean('Value', true)}
-        showColour={boolean('Show Colour', true)}
-        hueOffsetMode={boolean('Offset mode', false)}
-        showText={boolean('Show text', false)}
-        text={text('Text', 'test')}
         hsv={hsv}
         onChange={({ h, s, v }) => setHsv({ ...hsv, h, s, v })}
+        {...args}
       />
     </PickerContainer>
   );
+};
+
+HsvPickerProps.args = {
+  modifySaturation: true,
+  modifyValue: true,
+  showColour: true,
+  hueOffsetMode: false,
+  showText: false,
+  text: 'test',
+  active: true
 };
 
 export const HuePickerProps = () => {
